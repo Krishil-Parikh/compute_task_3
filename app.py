@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 from sklearn.preprocessing import StandardScaler
 
-model = joblib.load('/Users/krishilparikh/CODING/Compute/compute_task_4/svm_credit_risk_model.pkl')
+model = joblib.load('/Users/krishilparikh/CODING/Compute/compute_task_3/svm_credit_risk_model.pkl')
 
 def standardize_input(data):
     scaler = StandardScaler()

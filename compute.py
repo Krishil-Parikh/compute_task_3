@@ -11,7 +11,7 @@ from sklearn.metrics import confusion_matrix, classification_report, accuracy_sc
 import joblib
 
 # Load the dataset
-data = pd.read_csv("/Users/krishilparikh/CODING/Compute/compute_task_4/credit_risk_dataset.csv")
+data = pd.read_csv("credit_risk_dataset.csv")
 
 # Display first few rows of the dataset
 print(data.head())
